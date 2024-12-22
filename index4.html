@@ -3,15 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>fixed position</title>
+    <title>Absolute position</title>
     <style>
         .btn{
             position: fixed;
-            top: 50px;
-            right: 20px;
+            bottom: 50px;
             background-color: red;
             height: 30px;
         }
+        .icon{
+        position: absolute;
+        width: 40px;
+        left: 250px;
+        top: 50px;
+        margin: 0 auto;
+        padding: 30px;
+        border-radius: 50%;
+        background-color: rgb(205, 208, 17);
+        }
+        img{
+            border: solid;
+            border-width: 10px;
+            border-color: rgb(205, 208, 17);
+        }
+
     </style>
 </head>
 <body>
@@ -20,9 +35,10 @@
        <div>
         <button class="btn">Know more</button>
     </div>
-        <img src="./images/flower3.jpg" alt="flower images">
+        <img src="./images/icon1.png" class="icon"/>
+        <img src="./images/flower4.jpg" alt="flower images">
     </div>
-    <div class="text">
+    <div>
         <p>Wispy and delicate, these daisy-shaped flowers seem almost weightless stop their super-long stems (which can grow up to 60 inches tall! Stake them for added support). Wedding florists love to tuck them into otherwise staid bouquets for a bit of happy whimsy; you should do the same for tabletop arrangements.</p>
     </div>
     <div>
